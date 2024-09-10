@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 18: Forms & Form Validation</title>
+    <style>
+        .form-control {
+            margin-bottom: 10px;
+        }
+        .form-control.success input {
+            border-color: green;
+        }
+        .form-control.error input {
+            border-color: red;
+        }
+        .form-control small {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form id="registrationForm">
+        <div class="form-control">
+            <label for="username">Username</label>
+            <input type="text" id="username" />
+            <small></small>
+        </div>
+        <div class="form-control">
+            <label for="email">Email</label>
+            <input type="text" id="email" />
+            <small></small>
+        </div>
+        <div class="form-control">
+            <label for="password">Password</label>
+            <input type="password" id="password" />
+            <small></small>
+        </div>
+        <div id="errorDisplay" style="color: red; margin-bottom: 10px;"></div>
+        <button type="submit">Register</button>
+    </form>
+    <script src="day18.js"></script>
+</body>
+</html>

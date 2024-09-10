@@ -1,0 +1,146 @@
+Day 9: Error Handling & Debugging
+	Tasks:
+	Introduction to try, catch, finally, and throw.
+	Write a function that handles errors gracefully using try-catch.
+	Debugging using console.log and breakpoints in the browser's Developer Tools.
+
+Day 10: Closures
+	Tasks:
+	Explanation of closures with examples.
+	Create a function that demonstrates closure by accessing variables from an outer 	function.
+	Discuss the importance of closures in JavaScript, particularly in asynchronous 	programming.
+
+Day 11: Asynchronous JavaScript (Callbacks)
+	Tasks:
+	Introduction to asynchronous programming.
+	Write a function that simulates a network request using setTimeout and handles it 	with a callback.
+	Understanding callback hell and its drawbacks.
+
+Day 12: Promises
+	Tasks:
+	Introduction to Promises.
+	Convert the callback function from Day 11 into a Promise-based function.
+	Use .then() and .catch() for handling asynchronous operations.
+	Discuss the benefits of Promises over callbacks.
+
+Day 13: Async/Await
+	Tasks:
+	Convert the Promise-based function from Day 12 into an async/await function.
+	Handle errors using try-catch with async/await.
+	Compare and contrast Promises and async/await in terms of readability and error 	handling.
+
+Day 14: Modules & Imports/Exports
+	Tasks:
+	Introduction to modular JavaScript and why it's important.
+	Create multiple JavaScript files and demonstrate the use of export and import to 	share code between files.
+	Discuss the difference between default exports and named exports.
+
+Day 15: Regular Expressions (RegEx)
+	Tasks:
+	Introduction to Regular Expressions and their syntax.
+	Write functions that validate email addresses, phone numbers, and passwords using RegEx.
+	Explore methods like test, match, and replace for working with RegEx in JavaScript.
+
+Day 16: JavaScript DOM Manipulation
+	Tasks:
+	Introduction to the Document Object Model (DOM).
+	Selecting and manipulating DOM elements using methods like getElementById, querySelector, etc.
+	Add, remove, and modify HTML elements and attributes dynamically.
+
+Day 17: Event Handling
+	Tasks:
+	Introduction to JavaScript event handling.
+	Write functions that handle various events like click, mouseover, keyup, etc.
+	Use event delegation to manage events efficiently.
+
+Day 18: Forms & Form Validation
+	Tasks:
+	Create a simple HTML form and validate the input fields using JavaScript.
+	Provide real-time feedback as the user types.
+	Prevent form submission if validation fails and display error messages.
+
+Day 19: Local Storage & Session Storage
+	Tasks:
+	Introduction to Web Storage API.
+	Write functions to store, retrieve, and delete data in localStorage and sessionStorage.
+	Build a simple app that remembers user preferences using local storage.
+
+Day 20: APIs & Fetch
+	Tasks:
+	Introduction to APIs and making HTTP requests.
+	Use the fetch API to get data from a public API and display it on the web page.
+	Handle errors and loading states while fetching data.
+
+Day 21: ES6+ Advanced Features
+	Tasks:
+	Explore advanced ES6+ features like Set, Map, WeakSet, WeakMap.
+	Write examples to demonstrate the unique properties of these data structures.
+	Discuss their use cases in modern JavaScript development.
+
+Day 22: Introduction to Webpack/Babel
+	Tasks:
+	Introduction to build tools and why they are needed.
+	Set up a simple Webpack project with Babel to transpile ES6+ code.
+	Discuss how these tools help in developing and deploying JavaScript applications.
+
+Day 23: JavaScript Design Patterns
+	Tasks:
+	Introduction to common design patterns like Singleton, Factory, and Module 	patterns.
+	Implement these patterns in JavaScript with examples.
+	Discuss how these patterns can improve code maintainability and readability.
+
+Day 24: Error Monitoring & Performance Optimization
+	Tasks:
+	Introduction to error monitoring tools like Sentry.
+	Learn basic performance optimization techniques like debouncing, throttling, and 	lazy loading.
+	Write code examples to demonstrate these optimizations.
+
+Day 25: JavaScript Security Best Practices
+	Tasks:
+	Introduction to common security vulnerabilities like XSS, CSRF, and how to prevent 	them.
+	Implement content security policy (CSP) and other security headers in a project.
+	Write code examples demonstrating secure coding practices.
+
+Day 26: Testing JavaScript Code
+	Tasks:
+	Introduction to unit testing in JavaScript with frameworks like Jest or Mocha.
+	Write test cases for functions created in previous tasks.
+	Discuss the importance of testing and how it can improve code reliability.
+
+Day 26: To-Do List App
+	Goal: Build a simple to-do list application where users can add, edit, and remove 	tasks.
+	Features:
+	Add tasks to a list.
+	Mark tasks as completed.
+	Remove tasks from the list.
+	Optional: Save the list in local storage to persist data across sessions.
+
+Day 27: Weather Dashboard
+	Goal: Create a weather dashboard that fetches and displays the current weather of 	a city.
+	Features:
+	Input field to enter the city name.
+	Fetch weather data from a public API (e.g., OpenWeatherMap).
+	Display weather details like temperature, humidity, and condition.
+	Optional: Style the dashboard with icons or animations.
+
+Day 28: Calculator
+	Goal: Build a basic calculator that performs arithmetic operations.
+	Features:
+	Basic operations: addition, subtraction, multiplication, division.
+	Handle decimal numbers and edge cases like division by zero.
+	Optional: Add a clear button to reset the calculator.
+
+Day 29: Quiz App
+	Goal: Develop a simple quiz application that presents multiple-choice questions.
+	Features:
+	Present questions one at a time.
+	Track and display the score at the end.
+	Optional: Add a timer for each question or the entire quiz.
+
+Day 30: Recipe Finder
+	Goal: Create a recipe finder that lets users search for recipes based on 	ingredients.
+	Features:
+	Input field to enter ingredients.
+	Fetch and display recipes from a public API (e.g., Edamam API).
+	Display recipe details like ingredients, cooking time, and a link to the full 	recipe.
+	Optional: Implement a feature to save favorite recipes locally.
